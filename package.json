@@ -1,0 +1,26 @@
+{
+  "name": "code-voice-assistant",
+  "displayName": "Code Voice Assistant",
+  "description": "A VS Code extension to generate code from voice commands using Whisper and Copilot/OpenAI.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeVoiceAssistant.generateCode",
+        "title": "Code Voice Assistant: Generate Code from Voice"
+      }
+    ]
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.3",
+    "vscode": "^1.1.37"
+  }
+}
