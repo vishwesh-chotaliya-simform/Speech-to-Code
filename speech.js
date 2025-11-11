@@ -71,7 +71,7 @@ async function recordAndTranscribe() {
   const audioPath = path.join(__dirname, "input.wav");
   await recordAudio(audioPath); // Record up to 5 seconds or until silence
   const text = await transcribeAudio(audioPath);
-  // fs.unlinkSync(audioPath); // Clean up
+  // fs.unlinkSync(audioPath); // Clean up recorded file (input.wav)
   return text;
 }
 

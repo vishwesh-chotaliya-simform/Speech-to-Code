@@ -1,5 +1,4 @@
 const axios = require("axios");
-require("dotenv").config();
 
 /**
  * Sends a text prompt to the OpenAI API and returns the generated code snippet.
