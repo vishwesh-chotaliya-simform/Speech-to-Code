@@ -3,7 +3,7 @@ const { recordAndTranscribe } = require("./speech");
 const { getCodeFromPrompt } = require("./copilot");
 
 async function main() {
-  console.log("Please speak your coding request...");
+  console.log("Please speak your coding request....");
 
   try {
     const prompt = await recordAndTranscribe();
