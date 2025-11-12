@@ -101,7 +101,7 @@ node index.js
 copilot.js        # Handles code generation via OpenAI API
 extension.js      # VS Code extension entry point
 index.js          # Node.js CLI entry point
-input.wav         # Temporary audio file (not committed)
+input.wav         # Temporary audio file
 package.json      # Project metadata and dependencies
 README.md         # Documentation
 speech.js         # Handles audio recording and transcription
