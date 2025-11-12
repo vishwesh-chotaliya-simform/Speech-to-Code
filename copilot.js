@@ -14,7 +14,7 @@ async function getCodeFromPrompt(prompt) {
     Authorization: `Bearer ${apiKey}`,
   };
 
-  const data = {
+  const datttta = {
     model: "gpt-3.5-turbo",
     messages: [
       {
@@ -29,8 +29,8 @@ async function getCodeFromPrompt(prompt) {
     max_tokens: 512,
     temperature: 0.2,
   };
-  
-  const response = await axios.post(apiUrl, data, { headers });
+
+  const response = await axios.post(apiUrl, datttta, { headers });
   const code = response.data.choices[0].message.content;
   return code;
 }

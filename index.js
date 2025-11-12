@@ -5,6 +5,16 @@ const { getCodeFromPrompt } = require("./copilot");
 async function main() {
   console.log("Please speak your coding request...");
 
+
+
+
+
+
+
+
+
+
+  
   try {
     const prompt = await recordAndTranscribe();
     console.log("\nRecognized prompt:", prompt);
